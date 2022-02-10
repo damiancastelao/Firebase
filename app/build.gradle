@@ -48,5 +48,6 @@ dependencies {
     implementation platform('com.google.firebase:firebase-bom:29.0.4')
     // RealTime https://firebase.google.com/docs/database/android/start
     // When using the BoM, you don't specify versions in Firebase library dependencies
-    implementation 'com.google.firebase:firebase-database'
+    implementation 'com.google.firebase:firebase-database-ktx'
+    implementation 'com.google.firebase:firebase-analytics-ktx'
 }
